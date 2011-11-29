@@ -1,0 +1,98 @@
+/* Formatting specific to the myTwitter application */
+body {
+	padding: 12px;
+}
+
+/* Main panel */
+.mainPanel {
+	margin: 0px 10px 0px 10px;
+}
+
+/* Tweet panel */
+.tweetPanel {
+	background-color: #EDFFF4;
+	padding: 10px;
+}
+
+/* Tweet text*/
+.tweetText {
+	color: black;
+	font-family: sans-serif;
+	font-size: medium;
+	width: 340px;
+/* 	margin-right: 10px; */
+}
+
+/* Tweet button */
+.gwt-Button-tweet {
+	width: 60px;
+	height: 50px;
+}
+
+/* Tweet label */
+.tweetTextPanel {
+	background-color: #D0E4F6;
+	color: black;
+	font-family: sans-serif;
+	font-size: small;
+	width: 380px;
+	border: 1px solid silver;
+	border-color: white;
+	border-width: medium;
+	border-style: double;
+}
+
+/* Comment Label */
+.comment {
+	background-color: #D0E4F6;
+	color: black;
+	font-family: sans-serif;
+	font-size: small;
+}
+
+.tweetVPanel {
+	padding: 10px;
+	width: 380px;
+	border: 1px solid #D0E4F6;
+}
+
+/* Comment Text */
+.commentText {
+	color: black;
+	font-family: sans-serif;
+	font-size: small;
+	width: 280px;
+	margin-right: 6px;
+}
+
+/* Commment list flex table */
+.commentList {
+	border: 1px solid silver;
+	border-color: white;
+	border-width: medium;
+	border-style: double;
+}
+
+/* Time */
+.time {
+	color: gray;
+	font-size: x-small;
+	text-align: right;
+}
+
+/* Highlight Comment*/
+.commentNotSelected {
+	background-color: #D0E4F6;
+}
+
+.commentSelected {
+	background-color: #627AAD;
+}
+
+.commentParent {
+	background-color: #D8DFEA;
+}
+
+.commentAncestors {
+	background-color: #F2F2F2;
+}

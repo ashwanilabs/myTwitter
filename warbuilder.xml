@@ -1,0 +1,14 @@
+<project name="myTwitter" basedir="." default="default">
+	<target name="default" depends="buildwar,deploy"></target>
+	<target name="buildwar">
+		<war basedir="war" destfile="myTwitter.war" webxml="war/WEB-INF/web.xml">
+			<exclude name="WEB-INF/**" />
+			<webinf dir="war/WEB-INF/">
+				<include name="**/*.jar" />
+			</webinf>
+		</war>
+	</target>
+	<target name="deploy">
+		<copy file="myTwitter.war" todir="." />
+	</target>
+</project>

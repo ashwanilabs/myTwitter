@@ -1,0 +1,2 @@
+serviceClass: com.google.gwt.mytwitter.client.MyTwitterService
+path: 8E0606EF85CE8CC7B1FD70C7D56737C5.gwt.rpc
